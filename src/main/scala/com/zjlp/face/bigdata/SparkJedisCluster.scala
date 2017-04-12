@@ -9,7 +9,7 @@ import redis.clients.jedis._
  *  spark-submit --class com.zjlp.face.bigdata.SparkJedis  --master spark://192.168.70.11:7077
  * /data/work/luciuschina/spark-redis/target/spark-redis-1.0.jar
  */
-object SparkJedis {
+object SparkJedisCluster {
   def main(args: Array[String]) = {
     val conf = new SparkConf()
       .setAppName("spark demo")
