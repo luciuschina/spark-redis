@@ -1,4 +1,4 @@
-package com.zjlp.face.bigdata;
+package com.zjlp.face.bigdata.redis;
 
 import org.redisson.Redisson;
 import org.redisson.api.RList;

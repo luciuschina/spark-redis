@@ -1,6 +1,6 @@
-package com.zjlp.face.bigdata
+package com.zjlp.face.bigdata.redis
 
-import org.apache.spark.{SparkContext, SparkConf}
+import org.apache.spark.{SparkConf, SparkContext}
 import org.redisson.Redisson
 import org.redisson.api.{RList, RedissonClient}
 import org.redisson.config.Config

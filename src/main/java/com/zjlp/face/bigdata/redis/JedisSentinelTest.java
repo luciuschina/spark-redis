@@ -1,4 +1,4 @@
-package com.zjlp.face.bigdata;
+package com.zjlp.face.bigdata.redis;
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import redis.clients.jedis.HostAndPort;
